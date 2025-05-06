@@ -27,6 +27,16 @@ The system:
 
 ---
 
+## 📂 **Project Structure**
+```
+├── data/
+│   └── big.txt               # Corpus file
+├── spelling_corrector.py      # Core spelling correction logic
+├── gui.py                     # Tkinter desktop GUI
+├── app.py                     # Streamlit web app
+├── README.md
+└── requirements.txt           # Required Python packages
+```
 ## 📝 **Example Usage (Python)**
 
 ```python
@@ -38,13 +48,11 @@ text = "I recieved teh letter adn it was amazng"
 corrected = corrector.correct_text(text)
 
 print("Original:", text)
-print("Corrected:", corrected)```
-
-## 📂 Project Structure
-├── data/
-│   └── big.txt               # Corpus file
-├── spelling_corrector.py      # Core spelling correction logic
-├── gui.py                     # Tkinter desktop GUI
-├── app.py                     # Streamlit web app
-├── README.md
-└── requirements.txt           # Required Python packages
+print("Corrected:", corrected)
+```
+## **📦 Installation**
+```
+git clone https://github.com/yourusername/spelling-corrector.git
+cd spelling-corrector
+pip install -r requirements.txt
+```
