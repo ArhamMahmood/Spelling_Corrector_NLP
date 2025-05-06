@@ -52,7 +52,7 @@ print("Corrected:", corrected)
 ```
 ## **📦 Installation**
 ```
-git clone https://github.com/yourusername/spelling-corrector.git
-cd spelling-corrector
+git clone https://github.com/ArhamMahmood/Spelling_Corrector_NLP.git
+cd Spelling_Corrector_NLP
 pip install -r requirements.txt
 ```
